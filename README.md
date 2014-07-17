@@ -1,4 +1,4 @@
 SimpleCalculator
 ================
 
-A simple calculator written in swift for educational purpose
+A simple calculator written in Swift for educational purpose
