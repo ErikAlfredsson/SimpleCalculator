@@ -12,6 +12,12 @@
 		034200881946F94B00BEBDE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034200861946F94B00BEBDE1 /* Main.storyboard */; };
 		0342008A1946F94B00BEBDE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034200891946F94B00BEBDE1 /* Images.xcassets */; };
 		034200961946F94B00BEBDE1 /* CalculatorSecondTryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034200951946F94B00BEBDE1 /* CalculatorSecondTryTests.swift */; };
+		034200A01946F9D700BEBDE1 /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0342009F1946F9D700BEBDE1 /* background1.jpg */; };
+		034200A21946FA2B00BEBDE1 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034200A11946FA2B00BEBDE1 /* Operator.swift */; };
+		03CD44C919470A9900CEB532 /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03CD44C819470A9900CEB532 /* background2.jpg */; };
+		03CD44CB1947111800CEB532 /* background3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03CD44CA1947111800CEB532 /* background3.jpg */; };
+		03CD44CD1947121100CEB532 /* background4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03CD44CC1947121100CEB532 /* background4.jpg */; };
+		03CD44CF1947126600CEB532 /* background5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03CD44CE1947126600CEB532 /* background5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 		0342008F1946F94B00BEBDE1 /* CalculatorSecondTryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorSecondTryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		034200941946F94B00BEBDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		034200951946F94B00BEBDE1 /* CalculatorSecondTryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorSecondTryTests.swift; sourceTree = "<group>"; };
+		0342009F1946F9D700BEBDE1 /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.jpg; sourceTree = "<group>"; };
+		034200A11946FA2B00BEBDE1 /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		03CD44C819470A9900CEB532 /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpg; sourceTree = "<group>"; };
+		03CD44CA1947111800CEB532 /* background3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background3.jpg; sourceTree = "<group>"; };
+		03CD44CC1947121100CEB532 /* background4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background4.jpg; sourceTree = "<group>"; };
+		03CD44CE1947126600CEB532 /* background5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +89,14 @@
 			children = (
 				034200821946F94B00BEBDE1 /* AppDelegate.swift */,
 				034200841946F94B00BEBDE1 /* ViewController.swift */,
+				034200A11946FA2B00BEBDE1 /* Operator.swift */,
 				034200861946F94B00BEBDE1 /* Main.storyboard */,
 				034200891946F94B00BEBDE1 /* Images.xcassets */,
+				0342009F1946F9D700BEBDE1 /* background1.jpg */,
+				03CD44C819470A9900CEB532 /* background2.jpg */,
+				03CD44CA1947111800CEB532 /* background3.jpg */,
+				03CD44CC1947121100CEB532 /* background4.jpg */,
+				03CD44CE1947126600CEB532 /* background5.jpg */,
 				034200801946F94B00BEBDE1 /* Supporting Files */,
 			);
 			path = CalculatorSecondTry;
@@ -189,8 +207,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CD44CF1947126600CEB532 /* background5.jpg in Resources */,
 				034200881946F94B00BEBDE1 /* Main.storyboard in Resources */,
+				03CD44CB1947111800CEB532 /* background3.jpg in Resources */,
+				03CD44C919470A9900CEB532 /* background2.jpg in Resources */,
 				0342008A1946F94B00BEBDE1 /* Images.xcassets in Resources */,
+				03CD44CD1947121100CEB532 /* background4.jpg in Resources */,
+				034200A01946F9D700BEBDE1 /* background1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				034200851946F94B00BEBDE1 /* ViewController.swift in Sources */,
+				034200A21946FA2B00BEBDE1 /* Operator.swift in Sources */,
 				034200831946F94B00BEBDE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CalculatorSecondTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CalculatorSecondTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -397,6 +423,7 @@
 				0342009B1946F94B00BEBDE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0342009C1946F94B00BEBDE1 /* Build configuration list for PBXNativeTarget "CalculatorSecondTryTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +432,7 @@
 				0342009E1946F94B00BEBDE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
